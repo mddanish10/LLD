@@ -9,6 +9,6 @@ public class Wallet implements PayementMethod{
 
     @Override
     public void makePayment() {
-        System.out.println("making payment via wallet");
+        System.out.println("making payment via wallet"+wallettNo);
     }
 }
