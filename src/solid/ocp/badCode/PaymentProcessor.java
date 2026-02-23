@@ -19,6 +19,7 @@ public class PaymentProcessor {
     }
 }
 
+
 // this code is open for modification but not for extension and is tightly coupled, if we want to implement new payment method
-// say UPI then we need to make changes in Payment Processor which is actually not a good practice.
+//say UPI then we need to make changes in Payment Processor which is actually not a good practice.
 
