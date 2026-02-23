@@ -2,5 +2,5 @@ package solid.ocp.goodCode;
 
 public interface PaymentMethod {
 
-    public  void pay( );
+    public  void pay( double ammount);
 }

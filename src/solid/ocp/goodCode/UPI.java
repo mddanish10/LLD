@@ -2,9 +2,9 @@ package solid.ocp.goodCode;
 
 public class UPI implements  PaymentMethod{
     @Override
-    public void pay() {
+    public void pay(double amount) {
 
-            System.out.println("this payment is through UPI");
+            System.out.println("this payment is through UPI"+amount);
 
     }
 }
